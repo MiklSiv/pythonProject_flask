@@ -1,0 +1,24 @@
+<!doctype html>
+<html style="color:red">
+<head>
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h1> привет </h1>
+    <h2>  это абзац 2 </h2>
+    <p> новый абзац </p>
+    <p> <b> Это жирный текст </b></p>
+    <p> <em> А это текст курсивом </em></p>
+    <br>
+    <br>
+    <ul>
+        {% for m in menu %}
+        <li> {{m}} </li>
+        {% endfor %}
+    </ul>
+
+
+
+
+</body>
+</html>
